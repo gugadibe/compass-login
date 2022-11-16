@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/compass-login" mode="merge"/>
+    <filter root="/content/compass-login" mode="merge"/>
+    <filter root="/content/dam/compass-login/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/compass-login" mode="merge"/>
+</workspaceFilter>
