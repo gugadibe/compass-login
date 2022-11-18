@@ -18,6 +18,8 @@ import withAsyncImport from "../utils/withAsyncImport";
 import './Page/Page';
 import './Container/Container';
 import './ExperienceFragment/ExperienceFragment';
+import "./HomePage";
+
 
 import {MapTo} from '@adobe/aem-react-editable-components';
 
