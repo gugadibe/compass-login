@@ -6,4 +6,6 @@ export const Main = styled.div`
   background-color: #ffffff;
   width: 100vw;
   height: 65vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
 `;

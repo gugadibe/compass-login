@@ -3,6 +3,7 @@ import React from "react";
 import { HeaderDiv } from "./Header.styled";
 import ImgHeader from "../../assets/black-logo.png";
 import Clock from "../microcomponents/Clock";
+import Weather from "../microcomponents/Weather";
 
 const Header = () => {
   return (
@@ -13,11 +14,9 @@ const Header = () => {
       <div id="datetime">
         <Clock />
       </div>
-      <div>
-       Climatempo
-      </div>
+       <Weather />
     </HeaderDiv>
   );
 };
 
-export default MapTo("compass-login/components/react-home-header")(Header);
+export default MapTo("compass-login/components/home-header")(Header);

@@ -1,16 +1,23 @@
 import styled from "styled-components";
 export const HeaderDiv = styled.div`
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 20vh;
   width: 100vw;
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
   img {
-    width: auto;
+    height: 75px;
+    padding-left: 1vw;
   }
-
+  #weather{
+    padding-right: 2vw;
+  }
+  #name {
+      display: block;
+      text-align: right;
+      }
   #datetime {
     display: flex;
     flex-direction: column;
@@ -33,124 +40,13 @@ export const HeaderDiv = styled.div`
         margin-bottom: 10%;
       }
     }
-
     #weather {
       padding-top: 1%;
+      font-size: 0.875rem;
+      
       #name {
-      }
-    }
-  }
-  @media (min-width: 2560px) {
-    img {
-      height: 75px;
-    }
-
-    #datetime {
-      span {
-        &:nth-child(1) {
-          font-size: 10em;
-        }
-        &:nth-child(2) {
-          font-size: 1.5em;
-        }
-      }
-    }
-    #weather {
-      padding-top: 1%;
-      #name {
-        font-size: 1.5em;
-      }
-    }
-  }
-
-  @media (max-width: 2560px) {
-    img {
-      height: 75px;
-    }
-    #datetime {
-      span {
-        &:nth-child(1) {
-          font-size: 10em;
-        }
-        &:nth-child(2) {
-          font-size: 1.5em;
-        }
-      }
-    }
-    #weather {
-      #name {
-        font-size: 1.5em;
-      }
-    }
-  }
-  @media (max-width: 2000px) {
-    img {
-      height: 75px;
-    }
-    #datetime {
-      span {
-        &:nth-child(1) {
-          font-size: 8em;
-        }
-        &:nth-child(2) {
-          font-size: 1.4em;
-        }
-      }
-    }
-    #weather {
-      #name {
-        font-size: 1.25em;
-      }
-    }
-  }
-  @media (max-width: 1500px) {
-    img {
-      height: 50px;
-    }
-    #datetime {
-      span {
-        &:nth-child(1) {
-          font-size: 7em;
-        }
-        &:nth-child(2) {
-          font-size: 1.25em;
-        }
-      }
-    }
-    #weather {
-      #name {
-        font-size: 1.25em;
-      }
-    }
-  }
-  @media (max-width: 1250px) {
-    img {
-      height: 50px;
-    }
-    #datetime {
-      span {
-        &:nth-child(1) {
-          font-size: 6.5em;
-        }
-        &:nth-child(2) {
-          font-size: 0.9em;
-        }
-      }
-    }
-    #weather {
-      #name {
-        font-size: 1m;
-      }
-    }
-  }
-
-  @media (max-width: 1000px) {
-    img {
-      height: 50px;
-    }
-    #weather {
-      #name {
-        font-size: 0.875em;
+      display: block;
+      text-align: right;
       }
     }
   }

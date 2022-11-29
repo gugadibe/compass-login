@@ -12,8 +12,8 @@ export default function Clock() {
       const day = setDayName(date.getDay());
       const month = setMonthName(date.getMonth() + 1);
       const year = date.getFullYear();
-      const min = date.getMinutes();
-      const hour = date.getHours();
+      let min = date.getMinutes();
+      let hour = date.getHours();
 
       if (min.toString().length === 1) min = "0" + min;
       if (min.toString().length === 1) hour = "0" + hour;
